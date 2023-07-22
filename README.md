@@ -124,7 +124,3 @@ The `IpApi` class may throw the following exceptions:
 ## License
 
 The `IpApi` package is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify it according to your needs.
-
----
-
-Please note that this `README.md` file is just a basic example, and you may want to expand it further by adding more details, usage examples, and other relevant information specific to your package. It's essential to provide comprehensive documentation to help users understand how to use your package effectively.
