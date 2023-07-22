@@ -13,7 +13,7 @@ The `IpApi` package requires Laravel version 7 or higher.
 To install the package, you can use Composer:
 
 ```bash
-composer require elfactory/ip-api
+composer require el-factory/ip-api
 ```
 
 ## Configuration
