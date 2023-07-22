@@ -1,0 +1,37 @@
+{
+    "name": "el-factory/ip-api",
+    "description": "A simple Laravel package to get IP address information from ip-api.com",
+    "type": "library",
+    "keywords": ["ip-api.com", "ip api laravel", "ip api php", "ip api"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": ">=7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.9",
+        "orchestra/testbench": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElFactory\\IpApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ElFactory\\IpApi\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ElFactory\\IpApi\\IpApiServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
