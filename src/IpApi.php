@@ -148,9 +148,5 @@ class IpApi
         if ( ! filter_var($this->ip, FILTER_VALIDATE_IP)) {
             throw new Exception('Invalid IP address');
         }
-
-        if ($this->ip == '127.0.0.1') {
-            throw new Exception('Reserved IP address');
-        }
     }
 }
