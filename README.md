@@ -1,5 +1,11 @@
 # IpApi - IP Address Information Lookup
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/el-factory/ip-api.svg?style=flat-square)](https://packagist.org/packages/el-factory/ip-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/el-factory/ip-api?style=flat-square)](https://packagist.org/packages/el-factory/ip-api)
+[![Repo Size](https://img.shields.io/github/repo-size/el-factory/ip-api?style=flat-square)](https://packagist.org/packages/el-factory/ip-api)
+[![Repo Size](https://img.shields.io/packagist/l/el-factory/ip-api?style=flat-square)](https://packagist.org/packages/el-factory/ip-api)
+
+
 The `IpApi` package provides an easy-to-use interface for looking up information about IP addresses using the ip-api.com API. It allows you to fetch various details about an IP address, such as geographical location, time zone, currency, and more.
 
 Requirements:
